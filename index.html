@@ -8,36 +8,43 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600" rel="stylesheet">
+
+  <!-- FontAwesome CDN version 5.8.1 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 <body>
-  <div>
-    <header>
+
+  <header>
+    <div class="header-wrapper">
+      <figure>
+        <img src="images/logo.svg" alt="Huddle Logo" />
+      </figure>
       <div>
-        <figure>
-          <img src="images/logo.svg" alt="Huddle Logo" />
-        </figure>
-        <div>
-          <button type="button">Try It Free</button>
-        </div>
-        <div>
-          <h1>Build The Community Your Fans Will Love</h1>
-
-          <p>
-            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-            Create connections with your users as you engage in genuine discussion. 
-          </p>
-
-          <button type="button">Get Started For Free</button>
-        </div>
-        <figure>
-          <img src="images/illustration-mockups.svg" alt="illustration of mockups" />
-        </figure>
+        <button type="button">Try It Free</button>
       </div>
-    </header>
-
-    <section>
       <div>
+        <h1>Build The Community Your Fans Will Love</h1>
+
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion. 
+        </p>
+
+        <button type="button">Get Started For Free</button>
+      </div>
+      <figure>
+        <img src="images/illustration-mockups.svg" alt="illustration of mockups" />
+      </figure>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="content-wrapper">
         <figure>
           <img src="images/illustration-grow-together.svg" alt="illustration of man and woman working together" />
         </figure>
@@ -50,7 +57,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="content-wrapper">
         <figure>
           <img src="images/illustration-flowing-conversation.svg" alt="illustration of people sitting at table talking" />
         </figure>
@@ -63,7 +70,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="content-wrapper">
         <figure>
           <img src="images/illustration-your-users.svg" alt="illustration of users" />
         </figure>
@@ -76,16 +83,18 @@
         </p>
       </div>
 
-      <div>
+      <div class="content-wrapper">
         <h2>Ready To Build Your Community?</h2>
 
         <button type="button">Get Started For Free</button>
       </div>
     </section>
+  </main>
 
-    <section class="contact">
+  <footer>
+    <section class="footer-content">
       <div>
-        <figure>
+        <figure class="footer-logo">
           <img src="images/logo.svg" alt="Huddle Logo" />
         </figure>
 
@@ -115,18 +124,23 @@
         Blog
         Contact Us
       </div>
-
+      
+      <div class="social-icons">
+        <p><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></p>
+        <p><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></p>
+        <p><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></p>
+      </div>
       <div>
-        &copy; Copyright 2018 Huddle. All rights reserved.
+        <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
       </div>
     </section>
 
-    <footer>
+    <section class="attribute">
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">April Bowler</a>.
       </p>
-    </footer>
-  </div>
+    <section>
+  </footer>
 </body>
 </html>
