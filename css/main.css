@@ -100,7 +100,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* ****************  General **************** */
+   /* ****************  General Mobile Styling **************** */
 
    html {
     font-size: 18px;
@@ -115,6 +115,14 @@ textarea {
         font-weight: 600;
     }
 
+    a {
+        text-decoration: none;
+    }
+
+    figure {
+        margin: 0;
+    }
+
     address {
         font-style: normal;
     }
@@ -122,6 +130,12 @@ textarea {
     .content-wrapper {
         border: solid 1px #000;
         border-radius: 10%;
+        width: 90%;
+    }
+
+    .body-img {
+        width: 350px;
+        align-self: center;
     }
 
     /* ****************  Base Header/Footer Styles  **************** */
@@ -149,6 +163,26 @@ textarea {
         margin: 0;
     }
 
+    .top-bar {
+        display:flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .header-logo {
+        width: 140px;
+        align-self:center;
+    }
+
+    .top-bar .button {
+        background: #fff;
+        font-weight: 700;
+        border-radius: 25px;
+        box-shadow: 1px 2px 6px #dfeaf0;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
     /* ****************  Footer Styles  **************** */
 
     .footer-content {
@@ -157,7 +191,7 @@ textarea {
     }
 
     .footer-logo img {
-        filter: brightness(0) invert(100);
+        filter: brightness(0) invert(100); 
     }
 
     .social-icons i {
