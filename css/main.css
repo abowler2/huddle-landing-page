@@ -167,7 +167,7 @@ textarea {
     }
 
     .header-logo {
-        width: 110px;
+        width: 105px;
         align-self:center;
     }
 
@@ -177,12 +177,13 @@ textarea {
         border-radius: 25px;
         box-shadow: 1px 2px 9px #dfeaf0;
         padding: 6px 20px;
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .header-text {
         display: flex;
         flex-flow: column wrap;
+        align-items: center;
         margin: 15px;
         padding: 50px 19px;
     }
@@ -198,6 +199,16 @@ textarea {
         text-align: center;
         padding: 5px 0 20px 0;
         margin-top: 10px;
+    }
+
+    .header-text button {
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 30px;
+        font-size: 11px;
+        color: white;
+        font-weight: 600;
+        width: 80%;
+        padding: 14px;
     }
 
     /* ****************  Footer Styles  **************** */
