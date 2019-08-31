@@ -230,10 +230,24 @@ textarea {
         color: #fff;
     }
 
-    .attribute { background: #fff; }
+    .copyright {
+        margin-bottom: 0;
+    }
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribute { 
+        background: hsl(193, 100%, 96%); 
+        margin: 0;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        margin: 0;
+        padding:15px;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
 
      /* ==========================================================================
    Helper classes
