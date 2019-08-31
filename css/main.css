@@ -134,7 +134,7 @@ textarea {
     }
 
     .body-img {
-        width: 350px;
+        width: 300px;
         align-self: center;
     }
 
@@ -145,10 +145,8 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-        padding: 15px 0;
-        background: url('../images/bg-hero-mobile.svg');
-        background-size: cover;
         background-color: hsl(193, 100%, 96%);
+        padding-bottom: 60px;
     }
 
     .header-wrapper {
@@ -156,6 +154,8 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
+        background: url('../images/bg-hero-mobile.svg');
+        background-size: cover;
         margin: 0;
     }
 
@@ -163,7 +163,7 @@ textarea {
         display:flex;
         justify-content: space-between;
         width: 90%;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     .header-logo {
@@ -180,28 +180,28 @@ textarea {
         font-size: 10px;
     }
 
-    .header-text {
+    .header-main {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        margin: 15px;
-        padding: 50px 19px;
+        margin: 15px 15px -20px 15px;
+        padding: 50px 19px 0 19px;
     }
 
-    .header-text h1 {
+    .header-main h1 {
         font-size: 26px;
         text-align: center;
         padding: 0 12px;
     }
 
-    .header-text p {
+    .header-main p {
         font-size: 16px;
         text-align: center;
         padding: 5px 0 20px 0;
         margin-top: 10px;
     }
 
-    .header-text button {
+    .header-main button {
         background-color: hsl(322, 100%, 66%);
         border-radius: 30px;
         font-size: 11px;
@@ -209,6 +209,10 @@ textarea {
         font-weight: 600;
         width: 80%;
         padding: 14px;
+    }
+
+    .header-img {
+        margin-top: 60px;
     }
 
     /* ****************  Footer Styles  **************** */
