@@ -138,21 +138,17 @@ textarea {
         align-self: center;
     }
 
-    /* ****************  Base Header/Footer Styles  **************** */
+    /* ****************  Header Styles  **************** */
 
-    header, footer {
+    header {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
+        padding: 15px 0;
         background: url('../images/bg-hero-mobile.svg');
         background-size: cover;
-    }
-
-    /* ****************  Header Styles  **************** */
-
-    header {
-        padding: 15px 0;
+        background-color: hsl(193, 100%, 96%)
     }
 
     .header-wrapper {
@@ -167,10 +163,11 @@ textarea {
         display:flex;
         justify-content: space-between;
         width: 90%;
+        margin-top: 15px;
     }
 
     .header-logo {
-        width: 140px;
+        width: 110px;
         align-self:center;
     }
 
@@ -178,9 +175,28 @@ textarea {
         background: #fff;
         font-weight: 700;
         border-radius: 25px;
-        box-shadow: 1px 2px 6px #dfeaf0;
-        padding: 5px 20px;
-        font-size: 12px;
+        box-shadow: 1px 2px 9px #dfeaf0;
+        padding: 6px 20px;
+        font-size: 11px;
+    }
+
+    .header-text {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 15px;
+        padding: 50px 19px;
+    }
+
+    .header-text h1 {
+        font-size: 26px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .header-text p {
+        text-align: center;
+        padding: 5px 5px 20px 5px;
+        margin-top: 10px;
     }
 
     /* ****************  Footer Styles  **************** */
