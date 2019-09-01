@@ -128,9 +128,13 @@ textarea {
     }
 
     .content-wrapper {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
         border: solid 1px #000;
         border-radius: 10%;
         width: 90%;
+        margin: 2em;
     }
 
     .body-img {
@@ -221,6 +225,10 @@ textarea {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+    }
+
+    .body-text {
+        padding: 5px 15px;
     }
 
     /* ****************  Footer Styles  **************** */
