@@ -130,6 +130,7 @@ textarea {
     .body-img {
         width: 300px;
         align-self: center;
+        
     }
 
     /* ****************  Header Styles  **************** */
@@ -151,7 +152,7 @@ textarea {
         flex-flow: row wrap;
         background: url('../images/bg-hero-mobile.svg');
         background-size: cover;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .top-bar {
@@ -219,7 +220,6 @@ textarea {
         margin: 0 auto;
     }
 
-
     .content-wrapper {
         display: flex;
         flex-flow: column nowrap;
@@ -228,10 +228,25 @@ textarea {
         border-radius: 3%;
         width: 90%;
         margin-top: 2em;
+        padding: 3em 0 2em 0;
+    }
+
+    main .body-img {
+        width: 245px;
+    }
+
+    main h2 {
+        font-size: 1.15em;
+        margin-top: 2em;
     }
 
     .body-text {
-        padding: 5px 15px;
+        color: hsl(208, 11%, 55%);
+        font-size: 0.85em;
+        padding: 5px 33px;
+        text-align: center;
+        margin: 0 auto;
+
     }
 
     /* ****************  Footer Styles  **************** */
