@@ -305,12 +305,39 @@ textarea {
         flex-shrink: 5;
     }
 
+    .footer-links {
+        margin: 2em 0 2em 0;
+        font-size: 1.1em;
+    }
+
+    .social-copyright {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 40%;
+    }
+
     .social-icons i {
         color: #fff;
+        font-size: 0.9em;
+        border: solid 1px #fff;
+        border-radius: 50%;
+        padding: 0.5em;
+    }
+
+    .social-icons .facebook {
+        padding: 0.5em 0.67em;
     }
 
     .copyright {
-        margin-bottom: 0;
+        font-size: 0.7em;
+        padding-bottom: 3em;
     }
 
     .attribute { 
