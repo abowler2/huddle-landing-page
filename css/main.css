@@ -277,6 +277,8 @@ textarea {
 
     .footer-logo img {
         filter: brightness(0) invert(100); 
+        width: 160px;
+        margin: 8.888em;
     }
 
     .social-icons i {
