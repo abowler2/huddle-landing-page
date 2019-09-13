@@ -250,6 +250,7 @@ textarea {
     }
 
     .cta {
+        background-color: #fff;
         text-align: center;
         padding: 2.3em 0;
         margin-top: 6.5em;
@@ -271,6 +272,7 @@ textarea {
     .footer-content {
         background: hsl(192, 100%, 9%);
         color: #fff;
+        margin-top: -3em;
     }
 
     .footer-logo img {
